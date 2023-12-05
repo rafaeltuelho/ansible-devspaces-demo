@@ -6,9 +6,9 @@ components:
     container:
       image: quay.io/devspaces/ansible-creator-ee@sha256:04c7aa48f34ab28dc21f36acfe472b249f29c24d1a52d98b2c8da75dd6587d79
       memoryRequest: 256M
-      memoryLimit: 6Gi
+      memoryLimit: 2Gi
       cpuRequest: 250m
-      cpuLimit: 2000m
+      cpuLimit: 1000m
       args: ['tail', '-f', '/dev/null']
 commands:
   - id: oc-install
